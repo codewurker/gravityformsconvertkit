@@ -1,0 +1,219 @@
+# Copyright (C) 2023 Gravity Forms
+# This file is distributed under the GPL-3.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gravity Forms ConvertKit Add-On 1.0.0\n"
+"Report-Msgid-Bugs-To: https://gravityforms.com/support\n"
+"Last-Translator: Gravity Forms <support@gravityforms.com>\n"
+"Language-Team: Gravity Forms <support@gravityforms.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-11-15T19:35:52+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: gravityformsconvertkit\n"
+
+#. Plugin Name of the plugin
+msgid "Gravity Forms ConvertKit Add-On"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://gravityforms.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Integrates Gravity Forms with ConvertKit, allowing users to automatically be subscribed to ConvertKit on form submission."
+msgstr ""
+
+#. Author of the plugin
+msgid "Gravity Forms"
+msgstr ""
+
+#: class-gf-convertkit.php:188
+msgid "Subscribe member to ConvertKit only when payment is received."
+msgstr ""
+
+#: class-gf-convertkit.php:295
+msgid "Settings"
+msgstr ""
+
+#: class-gf-convertkit.php:296
+msgid "ConvertKit makes it easy to send emails to your customers. You can use Gravity Forms to collect customer information and automatically subscribe customers to your ConvertKit forms."
+msgstr ""
+
+#. translators: %s: Link to sign up for a ConvertKit account
+#: class-gf-convertkit.php:298
+msgid "Don't have a ConvertKit account? %s"
+msgstr ""
+
+#: class-gf-convertkit.php:299
+msgid "Sign up here"
+msgstr ""
+
+#: class-gf-convertkit.php:304
+msgid "API Key"
+msgstr ""
+
+#: class-gf-convertkit.php:310
+msgid "Click here to find your ConvertKit API Key"
+msgstr ""
+
+#: class-gf-convertkit.php:316
+msgid "API Secret"
+msgstr ""
+
+#: class-gf-convertkit.php:322
+msgid "Click here to find your ConvertKit API Secret"
+msgstr ""
+
+#: class-gf-convertkit.php:387
+msgid "Feed Settings"
+msgstr ""
+
+#: class-gf-convertkit.php:388
+msgid "Form Settings"
+msgstr ""
+
+#: class-gf-convertkit.php:469
+msgid "ConvertKit Form Settings"
+msgstr ""
+
+#: class-gf-convertkit.php:473
+msgid "Enable Creator Network Recommendations"
+msgstr ""
+
+#. translators: %1$s: Opening strong tag for the setting label. %2$s: Closing strong tag.
+#: class-gf-convertkit.php:478
+msgid "%1$sEnable Creator Network Recommendations%2$sDisplays the Creator Network Recommendations modal on submission when the form is embedded using Ajax."
+msgstr ""
+
+#. translators: %1$s: Opening a tag. %2$s: Closing a tag.
+#: class-gf-convertkit.php:562
+msgid "To use Creator Network Recommendations, please enable HTML5 on the %1$sForms > Settings%2$s page."
+msgstr ""
+
+#. translators: %1$s: Opening a tag. %2$s: Closing a tag.
+#: class-gf-convertkit.php:569
+msgid "To use Creator Network Recommendations, please configure the API Key and API Secret on the %1$sForms > Settings > ConvertKit%2$s page."
+msgstr ""
+
+#. translators: %1$s: Opening a tag for the account billing page. %2$s: Closing a tag. %3$s: Opening a tag for the creator profile page. %4$s: Opening a tag for the creator network page.
+#: class-gf-convertkit.php:576
+msgid "To use Creator Network Recommendations, please make sure you have a %1$spaid ConvertKit plan%2$s, a configured %3$sCreator Profile%2$s, and that Recommendations are enabled on the %4$sCreator Network%2$s page."
+msgstr ""
+
+#: class-gf-convertkit.php:581
+msgid "An unexpected error occurred whilst retrieving the Creator Network Recommendations script for your ConvertKit account."
+msgstr ""
+
+#: class-gf-convertkit.php:602
+msgid "ConvertKit Feed Settings"
+msgstr ""
+
+#: class-gf-convertkit.php:607
+#: class-gf-convertkit.php:611
+#: class-gf-convertkit.php:728
+msgid "Name"
+msgstr ""
+
+#: class-gf-convertkit.php:611
+msgid "Enter a feed name to uniquely identify this feed."
+msgstr ""
+
+#: class-gf-convertkit.php:621
+#: class-gf-convertkit.php:625
+msgid "ConvertKit Form"
+msgstr ""
+
+#: class-gf-convertkit.php:625
+msgid "Select the ConvertKit form to which you would like to add your contacts."
+msgstr ""
+
+#: class-gf-convertkit.php:634
+#: class-gf-convertkit.php:638
+msgid "ConvertKit Tag"
+msgstr ""
+
+#: class-gf-convertkit.php:638
+msgid "Select the ConvertKit tag to which you would like to assign your contacts."
+msgstr ""
+
+#: class-gf-convertkit.php:644
+#: class-gf-convertkit.php:665
+msgid "Map Fields"
+msgstr ""
+
+#: class-gf-convertkit.php:649
+msgid "Email"
+msgstr ""
+
+#: class-gf-convertkit.php:655
+msgid "First Name"
+msgstr ""
+
+#: class-gf-convertkit.php:661
+msgid "Additional Tag"
+msgstr ""
+
+#: class-gf-convertkit.php:665
+msgid "Associate email address and subscriber name with the appropriate Gravity Forms fields."
+msgstr ""
+
+#: class-gf-convertkit.php:671
+#: class-gf-convertkit.php:673
+msgid "Conditional Logic"
+msgstr ""
+
+#: class-gf-convertkit.php:673
+msgid "When conditional logic is enabled, form submissions will only be exported to ConvertKit when the conditions are met. When disabled all form submissions will be exported."
+msgstr ""
+
+#: class-gf-convertkit.php:729
+msgid "Form"
+msgstr ""
+
+#: class-gf-convertkit.php:756
+msgid "N/A"
+msgstr ""
+
+#: class-gf-convertkit.php:814
+msgid "Error Subscribing: The field mapped to the email address contains no value."
+msgstr ""
+
+#. translators: Field Value
+#: class-gf-convertkit.php:827
+msgid "Error Subscribing: The field mapped to the email address contains an invalid email value %s."
+msgstr ""
+
+#. translators: Error message
+#: class-gf-convertkit.php:850
+msgid "Error processing Custom Field Mappings: %s"
+msgstr ""
+
+#. translators: Error message
+#: class-gf-convertkit.php:869
+msgid "Error processing Tag Field Mapping: %s"
+msgstr ""
+
+#. translators: Error message
+#: class-gf-convertkit.php:891
+msgid "Error Subscribing: %s"
+msgstr ""
+
+#: class-gf-convertkit.php:920
+msgid "Subscribed to ConvertKit successfully."
+msgstr ""
+
+#: class-gf-convertkit.php:1008
+msgid "Select a ConvertKit form"
+msgstr ""
+
+#: class-gf-convertkit.php:1040
+msgid "(No Tag)"
+msgstr ""
+
+#: convertkit.php:91
+msgid "In order to prevent conflicts, we disabled the existing ConvertKit for Gravity Forms plugin."
+msgstr ""
